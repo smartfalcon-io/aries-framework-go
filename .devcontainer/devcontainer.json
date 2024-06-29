@@ -1,0 +1,16 @@
+{
+  "build":{
+    "dockerfile": "./Dockerfile",
+    "args": {
+      "GO_VERSION":"1.22.4",
+      "LIBINDY_VDR_VERSION":"v0.4.3"
+
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["golang.go","mhutchie.git-graph","donjayamanne.githistory"]
+    }
+  }
+}
